@@ -1,0 +1,150 @@
+{
+    "title": "Theme: Russophobia (Russian Hate)",
+    "type":"graph",
+    "categories":[
+        {
+            "name":"Left",
+            "itemStyle": {
+                "color": "#2A688C"
+            }
+        },
+        {
+            "name":"Neutral",
+            "itemStyle": {
+                "color": "#ede9e4"
+            }
+        },
+        {
+            "name":"Right",
+            "itemStyle": {
+                "color": "#832521"
+            }
+        }
+    ],
+    "nodes":[
+        {
+            "id":0,
+            "name":"Russia's Double Standard",
+            "value":"Left",
+            "x":100,
+            "y":100,
+            "category":0
+        },
+        {
+            "id":1,
+            "name":"Russia Condemns Russophobia",
+            "value":"Right",
+            "x":200,
+            "y":200,
+            "category":2
+        },
+        {
+            "id":2,
+            "name":"Kremlin’s Anti-Zelensky Narrative",
+            "value":"Left",
+            "x":300,
+            "y":100,
+            "category":0
+        },
+        {
+            "id":3,
+            "name":"Latvia's Education Policy",
+            "value":"Left",
+            "x":300,
+            "y":300,
+            "category":0
+        },
+        {
+            "id":4,
+            "name":"Russia Invented Russophobia",
+            "value":"Left",
+            "x":400,
+            "y":200,
+            "category":0
+        },
+        {
+            "id":5,
+            "name":"Russophobia Criticized",
+            "value":"Right",
+            "x":500,
+            "y":250,
+            "category":2
+        },
+        {
+            "id":6,
+            "name":"Allegations of Russophobia",
+            "value":"Right",
+            "x":600,
+            "y":200,
+            "category":2
+        },
+        {
+            "id":7,
+            "name":"Challenges for Russian Propagandists",
+            "value":"Left",
+            "x":700,
+            "y":300,
+            "category":0
+        },
+        {
+            "id":8,
+            "name":"Italian Demonstration for Russian Aggression",
+            "value":"Left",
+            "x":800,
+            "y":400,
+            "category":0
+        }
+    ],
+    "links":[
+        {
+            "source":0,
+            "target":1,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":1,
+            "target":2,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":1,
+            "target":3,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":2,
+            "target":4,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":3,
+            "target":4,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":4,
+            "target":5,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":5,
+            "target":6,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":5,
+            "target":7,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":6,
+            "target":7,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":7,
+            "target":8,
+            "color":"#C0C4CD"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+data_sample.jsonl  
+- 处理完的数据样例
+
+preprocess_sim.py  
+- 计算context和response的相似度。使用sentence_transformers（之前论文使用sentence embedding）
+
+preprocess_tfidf.py 
+- 计算specificity(根据tf-idf)
+- 计算是否为question-asking
+- 计算length
+
+sentiment.py
+- 计算sentiment，使用stanza
+

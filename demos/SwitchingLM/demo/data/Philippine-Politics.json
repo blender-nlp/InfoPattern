@@ -1,0 +1,181 @@
+{
+    "title": "Theme: Philippine Politics",
+    "type":"graph",
+    "categories":[
+        {
+            "name":"Left",
+            "itemStyle": {
+                "color": "#2A688C"
+            }
+        },
+        {
+            "name":"Neutral",
+            "itemStyle": {
+                "color": "#ede9e4"
+            }
+        },
+        {
+            "name":"Right",
+            "itemStyle": {
+                "color": "#832521"
+            }
+        }
+    ],
+    "nodes":[
+        {
+            "id":0,
+            "name":"Philippine Tech Expansion",
+            "value":"Left",
+            "x":100,
+            "y":300,
+            "category":0
+        },
+        {
+            "id":1,
+            "name":"Philippines' Nuclear Update",
+            "value":"Left",
+            "x":200,
+            "y":150,
+            "category":0
+        },
+        {
+            "id":2,
+            "name":"Global Tech Collaborations",
+            "value":"Left",
+            "x":300,
+            "y":300,
+            "category":0
+        },
+        {
+            "id":3,
+            "name":"Vigan's Colonial Heritage",
+            "value":"Left",
+            "x":200,
+            "y":450,
+            "category":0
+        },
+        {
+            "id":4,
+            "name":"Boosting Philippine Exports",
+            "value":"Right",
+            "x":400,
+            "y":250,
+            "category":2
+        },
+        {
+            "id":5,
+            "name":"Island Supplies",
+            "value":"Right",
+            "x":500,
+            "y":150,
+            "category":2
+        },
+        {
+            "id":6,
+            "name":"South China Sea Dispute",
+            "value":"Right",
+            "x":600,
+            "y":300,
+            "category":2
+        },
+        {
+            "id":7,
+            "name":"Rizal Tribute",
+            "value":"Left",
+            "x":500,
+            "y":450,
+            "category":0
+        },
+        {
+            "id":8,
+            "name":"Philippines-China Agreements",
+            "value":"Left",
+            "x":700,
+            "y":250,
+            "category":0
+        },
+        {
+            "id":9,
+            "name":"Debts of China",
+            "value":"Right",
+            "x":800,
+            "y":300,
+            "category":2
+        },
+        {
+            "id":10,
+            "name":"Asserting Sea Rights",
+            "value":"Left",
+            "x":1000,
+            "y":500,
+            "category":0
+        }
+    ],
+    "links":[
+        {
+            "source":0,
+            "target":1,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":0,
+            "target":2,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":0,
+            "target":3,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":1,
+            "target":4,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":2,
+            "target":4,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":3,
+            "target":7,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":4,
+            "target":5,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":5,
+            "target":6,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":7,
+            "target":6,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":6,
+            "target":8,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":8,
+            "target":9,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":6,
+            "target":10,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":9,
+            "target":10,
+            "color":"#C0C4CD"
+        }
+    ]
+}

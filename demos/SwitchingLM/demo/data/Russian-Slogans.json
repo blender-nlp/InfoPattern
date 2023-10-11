@@ -1,0 +1,168 @@
+{
+    "title": "Theme: Russian Slogans",
+    "type":"graph",
+    "categories":[
+        {
+            "name":"Left",
+            "itemStyle": {
+                "color": "#2A688C"
+            }
+        },
+        {
+            "name":"Neutral",
+            "itemStyle": {
+                "color": "#ede9e4"
+            }
+        },
+        {
+            "name":"Right",
+            "itemStyle": {
+                "color": "#832521"
+            }
+        }
+    ],
+    "nodes":[
+        {
+            "id":0,
+            "name":"Pro-Kremlin Campaign in Africa",
+            "value":"Left",
+            "x":100,
+            "y":300,
+            "category":0
+        },
+        {
+            "id":1,
+            "name":"Stand with Putin",
+            "value":"Right",
+            "x":200,
+            "y":150,
+            "category":2
+        },
+        {
+            "id":2,
+            "name":"Stand with Russia",
+            "value":"Right",
+            "x":200,
+            "y":450,
+            "category":2
+        },
+        {
+            "id":3,
+            "name":"Stop Putin Now",
+            "value":"Left",
+            "x":300,
+            "y":100,
+            "category":0
+        },
+        {
+            "id":4,
+            "name":"Stop Russia",
+            "value":"Left",
+            "x":300,
+            "y":400,
+            "category":0
+        },
+        {
+            "id":5,
+            "name":"Pro-Russian Narrative on Donbass",
+            "value":"Right",
+            "x":400,
+            "y":250,
+            "category":2
+        },
+        {
+            "id":6,
+            "name":"Qur‘an： Peacemakers Reformers",
+            "value":"Right",
+            "x":500,
+            "y":300,
+            "category":2
+        },
+        {
+            "id":7,
+            "name":"Peacemaking vs. Pacifism in Islam",
+            "value":"Right",
+            "x":600,
+            "y":250,
+            "category":2
+        },
+        {
+            "id":8,
+            "name":"Norwegian Pro-Russian Sentiment",
+            "value":"Right",
+            "x":700,
+            "y":200,
+            "category":2
+        },
+        {
+            "id":9,
+            "name":"Anti-Russian Sentiment in Video",
+            "value":"Left",
+            "x":800,
+            "y":400,
+            "category":0
+        }
+    ],
+    "links":[
+        {
+            "source":0,
+            "target":1,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":0,
+            "target":2,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":1,
+            "target":3,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":1,
+            "target":4,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":2,
+            "target":3,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":2,
+            "target":4,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":3,
+            "target":5,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":4,
+            "target":5,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":5,
+            "target":6,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":6,
+            "target":7,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":7,
+            "target":8,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":6,
+            "target":9,
+            "color":"#C0C4CD"
+        }
+    ]
+}

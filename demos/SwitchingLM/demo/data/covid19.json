@@ -1,0 +1,173 @@
+{
+    "title": "Theme: Covid 19 Vaccination",
+    "type":"graph",
+    "categories":[
+        {
+            "name":"Left",
+            "itemStyle": {
+                "color": "#2A688C"
+            }
+        },
+        {
+            "name":"Neutral",
+            "itemStyle": {
+                "color": "#ede9e4"
+            }
+        },
+        {
+            "name":"Right",
+            "itemStyle": {
+                "color": "#832521"
+            }
+        }
+    ],
+    "nodes":[
+        {
+            "id":0,
+            "name":"Anti-Vaccine Conspiracy",
+            "value":"Left",
+            "x":100,
+            "y":200,
+            "category":0
+        },
+        {
+            "id":1,
+            "name":"Unsubstantiated Vaccine Claims",
+            "value":"Left",
+            "x":200,
+            "y":450,
+            "category":0
+        },
+        {
+            "id":2,
+            "name":"Conspiracy Theory Warning",
+            "value":"Right",
+            "x":300,
+            "y":300,
+            "category":2
+        },
+        {
+            "id":3,
+            "name":"Disapproving President Critique",
+            "value":"Right",
+            "x":400,
+            "y":150,
+            "category":2
+        },
+        {
+            "id":4,
+            "name":"Defending Other Country's Actions",
+            "value":"Left",
+            "x":400,
+            "y":350,
+            "category":0
+        },
+        {
+            "id":5,
+            "name":"Media Accountability Lacking",
+            "value":"Right",
+            "x":500,
+            "y":250,
+            "category":2
+        },
+        {
+            "id":6,
+            "name":"Freedom Convoy Uncertainties",
+            "value":"Right",
+            "x":650,
+            "y":300,
+            "category":2
+        },
+        {
+            "id":7,
+            "name":"Other Country’s Bureaucracy Critique",
+            "value":"Left",
+            "x":700,
+            "y":450,
+            "category":0
+        },
+        {
+            "id":8,
+            "name":"Example of another country \n (Indonesian Sovereignty Assertion)",
+            "value":"Left",
+            "x":800,
+            "y":400,
+            "category":0
+        },
+        {
+            "id":9,
+            "name":"Example of a person \n (Derek Sloan)",
+            "value":"Left",
+            "x":1000,
+            "y":300,
+            "category":0
+        }
+    ],
+    "links":[
+        {
+            "source":0,
+            "target":1,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":1,
+            "target":2,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":2,
+            "target":3,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":2,
+            "target":4,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":3,
+            "target":5,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":4,
+            "target":5,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":5,
+            "target":6,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":5,
+            "target":6,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":6,
+            "target":7,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":6,
+            "target":8,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":6,
+            "target":9,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":1,
+            "target":7,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":9,
+            "target":10,
+            "color":"#C0C4CD"
+        }
+    ]
+}

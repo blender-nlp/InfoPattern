@@ -1,0 +1,207 @@
+{
+    "title": "Theme: Ukraine and Nazi Claims",
+    "type":"graph",
+    "categories":[
+        {
+            "name":"Left",
+            "itemStyle": {
+                "color": "#2A688C"
+            }
+        },
+        {
+            "name":"Neutral",
+            "itemStyle": {
+                "color": "#ede9e4"
+            }
+        },
+        {
+            "name":"Right",
+            "itemStyle": {
+                "color": "#832521"
+            }
+        }
+    ],
+    "nodes":[
+        {
+            "id":0,
+            "name":"Russian Designation of \n Azov as Terrorist Group",
+            "value":"Left",
+            "x":100,
+            "y":300,
+            "category":0
+        },
+        {
+            "id":1,
+            "name":"Azov with World War II Detention Camp",
+            "value":"Right",
+            "x":250,
+            "y":200,
+            "category":2
+        },
+        {
+            "id":2,
+            "name":"Comparison of \n Putin and American Actions",
+            "value":"Right",
+            "x":250,
+            "y":350,
+            "category":2
+        },
+        {
+            "id":3,
+            "name":"Azov Wives Media Tour",
+            "value":"Right",
+            "x":350,
+            "y":300,
+            "category":2
+        },
+        {
+            "id":4,
+            "name":"Criticism of Azov's Symbolism",
+            "value":"Right",
+            "x":400,
+            "y":250,
+            "category":2
+        },
+        {
+            "id":5,
+            "name":"Azov's Logo Change",
+            "value":"Left",
+            "x":500,
+            "y":200,
+            "category":0
+        },
+        {
+            "id":6,
+            "name":"Azov's Nazi tattoos",
+            "value":"Right",
+            "x":500,
+            "y":350,
+            "category":2
+        },
+        {
+            "id":7,
+            "name":"Comparison of \n Azov and Hitler",
+            "value":"Right",
+            "x":450,
+            "y":450,
+            "category":2
+        },
+        {
+            "id":8,
+            "name":"Mainstream Praises \n Azov Dropping Nazi Patches",
+            "value":"Left",
+            "x":600,
+            "y":300,
+            "category":0
+        },
+        {
+            "id":9,
+            "name":"Criticism of The Times' Stance",
+            "value":"Right",
+            "x":700,
+            "y":200,
+            "category":2
+        },
+        {
+            "id":10,
+            "name":"Satirical Response to Logo Change",
+            "value":"Right",
+            "x":700,
+            "y":350,
+            "category":2
+        },
+        {
+            "id":11,
+            "name":"Azov Involved in Murders",
+            "value":"Right",
+            "x":800,
+            "y":300,
+            "category":2
+        },
+        {
+            "id":12,
+            "name":"Azov's Attempted Escape",
+            "value":"Right",
+            "x":900,
+            "y":250,
+            "category":2
+        }
+    ],
+    "links":[
+        {
+            "source":0,
+            "target":1,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":0,
+            "target":2,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":1,
+            "target":3,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":1,
+            "target":4,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":3,
+            "target":4,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":4,
+            "target":5,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":4,
+            "target":6,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":4,
+            "target":7,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":5,
+            "target":8,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":6,
+            "target":8,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":7,
+            "target":8,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":8,
+            "target":9,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":8,
+            "target":10,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":10,
+            "target":11,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":11,
+            "target":12,
+            "color":"#C0C4CD"
+        }
+    ]
+}
