@@ -1,0 +1,104 @@
+{
+    "title": "Theme 1 Philippine Politics",
+    "type":"graph",
+    "categories":[
+        {
+            "name":"Left"
+        },
+        {
+            "name":"Neutral"
+        },
+        {
+            "name":"Right"
+        }
+    ],
+    "nodes":[
+        {
+            "name":"Philippine Tech Expansion",
+            "value":0,
+            "category":0
+        },
+        {
+            "name":"Philippines' Nuclear Update",
+            "value":2,
+            "category":0
+        },
+        {
+            "name":"Global Tech Collaborations",
+            "value":2,
+            "category":0
+        },
+        {
+            "name":"Vigan's Colonial Heritage",
+            "value":3,
+            "category":0
+        },
+        {
+            "name":"Boosting Philippine Exports",
+            "value":4,
+            "category":1
+        },
+        {
+            "name":"Island Supplies",
+            "value":5,
+            "category":1
+        },
+        {
+            "name":"South China Sea Dispute",
+            "value":6,
+            "category":1
+        },
+        {
+            "name":"Rizal Tribute",
+            "value":7,
+            "category":0
+        }
+    ],
+    "links":[
+        {
+            "source":0,
+            "target":1,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":0,
+            "target":2,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":0,
+            "target":3,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":1,
+            "target":4,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":2,
+            "target":4,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":3,
+            "target":7,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":4,
+            "target":5,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":5,
+            "target":6,
+            "color":"#C0C4CD"
+        },
+        {
+            "source":7,
+            "target":6,
+            "color":"#C0C4CD"
+        }
+    ]
+}
